@@ -16,17 +16,17 @@ public class CCuenta {
     }
 
     /**
-     * @return the cuenta1
+     * @return the cuenta
      */
     public String getCuenta() {
-        return cuenta1;
+        return cuenta;
     }
 
     /**
-     * @param cuenta the cuenta1 to set
+     * @param cuenta the cuenta to set
      */
     public void setCuenta(String cuenta) {
-        this.cuenta1 = cuenta;
+        this.cuenta = cuenta;
     }
 
     /**
@@ -59,7 +59,7 @@ public class CCuenta {
 
 
     private String nombre;
-    private String cuenta1;
+    private String cuenta;
     private double saldo;
     private double tipoInterés;
 
@@ -70,7 +70,7 @@ public class CCuenta {
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
-        cuenta1=cue;
+        cuenta=cue;
         saldo=sal;
     }
 
